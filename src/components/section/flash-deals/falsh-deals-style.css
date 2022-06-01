@@ -1,0 +1,89 @@
+.flash-deals{
+    margin-top: 20px;
+    background-color: #f4f8fb;
+}
+
+.section-icon{
+    font-size: 30px;
+    color: rgb(233, 69, 96);
+}
+
+.section-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-all{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.view-all:hover{
+    color: black;
+}
+
+.view-icon{
+    font-size: 20px;
+}
+
+.view-text{
+    font-size: 16px;
+}
+
+/* Product Scroll */
+
+.flash-scroll{
+    margin-top: 24px;
+    height: 400px;
+    position: relative;
+    overflow-x: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+
+.love-icon{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.product-name{
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+.scroll-section{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-controller{
+    background: rgb(218, 225, 231);
+    border: none;
+    height: 45px;
+    width: 90px;
+    border-radius: 50%;
+    }
+
+.scroll-controller-icon{
+    color: rgb(125, 135, 156);
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}

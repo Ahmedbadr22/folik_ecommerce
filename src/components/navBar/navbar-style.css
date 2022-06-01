@@ -1,0 +1,70 @@
+:root{
+    --sign-in-color: rgb(233, 69, 96);
+    --link-color: rgb(233, 69, 96);
+    --icon-background-color: rgb(243, 245, 249);
+}
+
+.logo{
+    color: var(--link-color);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo:hover{
+    color: var(--link-color);
+}
+
+.nav-item .nav-link{
+    color: black;
+}
+
+.nav-item .nav-link:hover,
+.nav-item .nav-link:focus {
+    color: var(--link-color)
+}
+
+.control{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.control-icon{
+    font-size: 18px;
+    background-color: var(--icon-background-color);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.control-icon{
+    cursor: pointer;
+}
+
+.authentication{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding-inline: 10px;
+}
+
+.sign-in-btn{
+    background-color: var(--sign-in-color);
+    color: white;
+}
+
+.sign-in-btn:hover{
+    border: 1px solid var(--sign-in-color);
+    background-color: transparent;
+    color: var(--sign-in-color);
+}
+
+.sign-up-btn{
+    border: 1px solid var(--background-color);
+    color: var(--background-color);
+}
+
+.sign-up-btn:hover{
+    color: white;
+    background-color: var(--background-color);
+}
