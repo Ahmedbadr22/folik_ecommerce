@@ -1,21 +1,15 @@
 import "./falsh-deals-style.css"
-import {faBolt, faCaretRight, faArrowLeft, faArrowRight} from "@fortawesome/free-solid-svg-icons";
+import {faBolt, faCaretRight} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import OwlCarousel from "react-owl-carousel";
 import ProductCard from "../../product-card/ProductCard";
 
 const FlashDeals = () => {
-    const scrollRight = () =>{
-        document.getElementById('scroll-div').scrollLeft += 240;
-    }
-
-    const scrollLeft = () =>{
-        document.getElementById('scroll-div').scrollLeft -= 240;
-    }
 
     return (
         <div className="flash-deals">
             <div className="container pt-5 pb-5">
-                <div className="header">
+                <div className="header mb-4">
                     <div className="section-title">
                         <FontAwesomeIcon className="section-icon" icon={faBolt}/>
                         <span className="title">Flash Deals</span>
@@ -25,32 +19,54 @@ const FlashDeals = () => {
                         <FontAwesomeIcon className="view-icon" icon={faCaretRight}/>
                     </a>
                 </div>
-                <div className="scroll-section">
-                    <button
-                        onClick={scrollLeft}
-                        className="scroll-controller d-none d-lg-block"
-                    >
-                        <FontAwesomeIcon className="scroll-controller-icon" icon={faArrowLeft}/>
-                    </button>
-                    <div id="scroll-div" className="flash-scroll">
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
+                <OwlCarousel
+                    className="owl-theme"
+                    nav
+                    dots={false}
+                    margin={20}
+                    smartSpeed={1000}
+                    responsive={
+                        {
+                            0:{
+                                items:1
+                            },
+                            500:{
+                                items:1
+                            },
+                            700:{
+                                items:2
+                            },
+                            1000:{
+                                items:3
+                            },
+                            1200:{
+                                items:4
+                            }
+                        }
+                    }
+                >
+                    <div className="item">
                         <ProductCard />
                     </div>
-                    <button
-                        onClick={scrollRight}
-                        className="scroll-controller d-none d-lg-block"
-                    >
-                        <FontAwesomeIcon className="scroll-controller-icon" icon={faArrowRight}/>
-                    </button>
-                </div>
+                    <div className="item">
+                        <ProductCard />
+                    </div>
+                    <div className="item">
+                        <ProductCard />
+                    </div>
+                    <div className="item">
+                        <ProductCard />
+                    </div>
+                    <div className="item">
+                        <ProductCard />
+                    </div>
+                    <div className="item">
+                        <ProductCard />
+                    </div>
+                    <div className="item">
+                        <ProductCard />
+                    </div>
+                </OwlCarousel>
             </div>
         </div>
     );

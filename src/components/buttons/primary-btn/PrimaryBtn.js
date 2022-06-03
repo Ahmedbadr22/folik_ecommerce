@@ -5,6 +5,7 @@ const PrimaryBtn = ({btnName}) => {
         textDecoration: "none",
         color: "white"
     }
+    
     return (
         <a href="/" className="btn"  style={style}>
             {btnName}

@@ -41,20 +41,6 @@
     font-size: 16px;
 }
 
-/* Product Scroll */
-
-.flash-scroll{
-    margin-top: 24px;
-    height: 400px;
-    position: relative;
-    overflow-x: scroll;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
-}
-
 .love-icon{
     font-size: 22px;
     cursor: pointer;
@@ -65,25 +51,33 @@
     padding-top: 30px;
 }
 
-.scroll-section{
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-}
-
-.scroll-controller{
-    background: rgb(218, 225, 231);
-    border: none;
-    height: 45px;
-    width: 90px;
-    border-radius: 50%;
-    }
-
-.scroll-controller-icon{
-    color: rgb(125, 135, 156);
-}
 .title{
     font-size: 25px;
     font-weight: bold;
+}
+
+.owl-prev,
+.owl-next{
+    position: absolute;
+    top: 40%;
+    width: 50px !important;
+    height: 50px !important;
+    display: grid;
+    border-radius: 30px !important;
+    place-items: center;
+    font-size: 20px !important;
+    color: white !important;
+    background-color: rgb(15, 52, 96) !important;   
+}
+
+.owl-prev{
+    left: -10px;
+}
+
+.owl-next{
+    right: -10px;
+}
+
+.owl-theme{
+    width: 100%;
 }

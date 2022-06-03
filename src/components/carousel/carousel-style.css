@@ -1,10 +1,11 @@
+
 .carousel-title{
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
 }
 @media (max-width: 995px) {
     .carousel-title{
-        font-size: 25px;
+        font-size: 15px;
         font-weight: bold;
     }
 }
@@ -34,38 +35,20 @@
     }
 }
 
-.menu-list{
-    list-style: none;
-}
-.menu-item{
+.item{
     display: flex;
-    justify-content: start;
-    gap: 15px;
+    justify-content: center;
+    gap: 120px;
     align-items: center;
-    padding: 10px;
 }
 
-.menu-item-icon,
-.cat-title{
-    color: rgb(233, 69, 96);
+@media (max-width: 995px) {
+    .item{
+        gap: 0;
+    }
+
+    .description-txt{
+        font-size: 10px;
+    }
 }
 
-
-.menu-item:hover{
-    background-color: rgb(251, 203, 209);
-    cursor: pointer;
-}
-
-.menu-title{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 15px;
-    background-color: rgb(243, 245, 249);
-    padding: 10px;
-}
-
-.menu-title-text{
-    font-size: 30px;
-    font-weight: bold;
-}
