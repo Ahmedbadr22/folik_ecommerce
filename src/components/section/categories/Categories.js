@@ -7,7 +7,7 @@ import CategoryCard from "../../cards/category-card/CategoryCard";
 const Categories = () => {
     return (
         <div className="categories-section">
-            <div className="container pt-5 pb-5">
+            <div className="container pt-1 pb-5">
                 <div className="header mb-2">
                     <div className="section-title">
                         <FontAwesomeIcon className="section-icon" icon={faTableCellsLarge}/>

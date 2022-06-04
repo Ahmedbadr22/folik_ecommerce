@@ -1,0 +1,42 @@
+.section-bg{
+    background-color: #f4f8fb;
+}
+
+.site-feature-section{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.site-feature-card{
+    width: 282px;
+    height: 280px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+}
+
+.site-feature-card .icon{
+    color: var(--primary-color);
+    font-size: 25px;
+    background-color: rgb(243, 245, 249);
+    padding: 20px;
+    border-radius: 100%;
+    width: 34px;
+    height: 34px;
+}
+
+.site-feature-card .title{
+    font-size: 17px;
+}
+
+.site-feature-card .description{
+    padding: 0 30px;
+    color: #b3b3b3;
+}

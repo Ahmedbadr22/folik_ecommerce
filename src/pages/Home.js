@@ -6,6 +6,7 @@ import Footer from "../components/footer/Footer";
 import Categories from "../components/section/categories/Categories";
 import BigDiscounts from "../components/section/big-discounts/BigDiscounts";
 import TopRatingFeaturedBrand from "../components/section/top-rating&featured-brands/TopRating&FeaturedBrand";
+import SiteFeature from "../components/section/site-feature/SiteFeature";
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <NavHeader />
             <NavBar />
             <Carousel />
+            <SiteFeature />
             <Categories />
             <FlashDeals />
             <TopRatingFeaturedBrand />
