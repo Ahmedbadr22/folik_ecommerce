@@ -8,7 +8,7 @@ const FlashDeals = () => {
 
     return (
         <div className="flash-deals">
-            <div className="container pt-5 pb-5">
+            <div className="container  pb-5">
                 <div className="header mb-4">
                     <div className="section-title">
                         <FontAwesomeIcon className="section-icon" icon={faBolt}/>

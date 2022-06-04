@@ -5,6 +5,7 @@ import FlashDeals from "../components/section/flash-deals/FlashDeals";
 import Footer from "../components/footer/Footer";
 import Categories from "../components/section/categories/Categories";
 import BigDiscounts from "../components/section/big-discounts/BigDiscounts";
+import TopRatingFeaturedBrand from "../components/section/top-rating&featured-brands/TopRating&FeaturedBrand";
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Carousel />
             <Categories />
             <FlashDeals />
+            <TopRatingFeaturedBrand />
             <BigDiscounts />
             <Footer />
         </>

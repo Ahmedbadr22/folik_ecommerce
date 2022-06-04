@@ -1,0 +1,13 @@
+.featured-brand-card{
+    width: 286px;
+    height: 227px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 5px;
+}
+
+.featured-brand-card .img-holder img{
+    width: 270px;
+}

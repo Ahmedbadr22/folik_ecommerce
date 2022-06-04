@@ -7,7 +7,7 @@ import ProductCard2 from "../../cards/product-card-2/ProductCard2";
 const BigDiscounts = () => {
     return (
         <div className="big-discount-section">
-            <div className="container pt-5 pb-5">
+            <div className="container  pb-5">
                 <div className="header mb-4">
                     <div className="section-title">
                         <FontAwesomeIcon className="section-icon" icon={faGift}/>
