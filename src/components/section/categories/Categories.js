@@ -1,7 +1,7 @@
 import "./categories-style.css"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faTableCellsLarge, faCaretRight} from "@fortawesome/free-solid-svg-icons";
-import CategoryCard from "../../category-card/CategoryCard";
+import CategoryCard from "../../cards/category-card/CategoryCard";
 
 
 const Categories = () => {
@@ -19,13 +19,41 @@ const Categories = () => {
                     </a>
                 </div>
                 <div className="categories-body">
-                    <div className="row">
-                        <div className="col-lg-2 mt-3">
-                            <CategoryCard />
-                        </div>
-                        <div className="col-lg-2 mt-3">
-                            <CategoryCard />
-                        </div>
+                    <div className="mt-3">
+                        <CategoryCard />
+                    </div>
+                    <div className="mt-3">
+                        <CategoryCard />
+                    </div>
+                    <div className="mt-3">
+                        <CategoryCard />
+                    </div>
+                    <div className="mt-3">
+                        <CategoryCard />
+                    </div>
+                    <div className="mt-3">
+                        <CategoryCard />
+                    </div>
+                    <div className="mt-3">
+                        <CategoryCard />
+                    </div>
+                    <div className="mt-3">
+                        <CategoryCard />
+                    </div>
+                    <div className="mt-3">
+                        <CategoryCard />
+                    </div>
+                    <div className="mt-3">
+                        <CategoryCard />
+                    </div>
+                    <div className="mt-3">
+                        <CategoryCard />
+                    </div>
+                    <div className="mt-3">
+                        <CategoryCard />
+                    </div>
+                    <div className="mt-3">
+                        <CategoryCard />
                     </div>
                 </div>
             </div>

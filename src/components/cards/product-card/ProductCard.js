@@ -1,5 +1,5 @@
 import "./product-card-style.css";
-import headPhone from "../../assets/images/headphone.png"
+import headPhone from "../../../assets/images/headphone.png"
 import {faHeart as unSelectedHeart} from "@fortawesome/free-regular-svg-icons"
 import {faHeart as selectedHeart} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -12,7 +12,7 @@ const ProductCard = () => {
         love === unSelectedHeart ? setLove(selectedHeart) : setLove(unSelectedHeart);
     }
     return (
-        <div className="product-card shadow-sm m-1">
+        <div className="product-card shadow-sm mt-1 mb-1">
             <div className="product-header">
                 <div className="sale-off rounded-pill">56% off</div>
                 {

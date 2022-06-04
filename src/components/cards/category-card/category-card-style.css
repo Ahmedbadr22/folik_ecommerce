@@ -2,11 +2,19 @@
     width: 180px;
     height: 75px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 5px;
     text-decoration: none;
     font-size: 18px;
+    background-color: white;
     color: var(--primary-color);
+}
+
+@media (max-width: 995px){
+    .category-card{
+        width: 180px;
+    }
 }
 
 .category-card:hover{
@@ -14,4 +22,9 @@
     color: white;
 }
 
-
+.categories-body{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

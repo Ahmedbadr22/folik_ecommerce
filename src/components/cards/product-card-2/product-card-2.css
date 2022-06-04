@@ -1,0 +1,23 @@
+.product-card-2{
+    width: 180px;
+    height: 234px;
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card-2 .image-holder{
+    width: 135px;
+    height: 135px;
+    margin-bottom: 15px;
+}
+
+.product-card-2 .price-text,
+.product-card-2 .product-name{
+    font-size: 14px;
+}
+

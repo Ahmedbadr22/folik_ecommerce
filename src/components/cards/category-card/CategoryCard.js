@@ -1,5 +1,5 @@
 import "./category-card-style.css"
-import catImage from "../../assets/images/1.webp"
+import catImage from "../../../assets/images/1.webp"
 
 const CategoryCard = () => {
     return (

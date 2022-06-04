@@ -1,18 +1,17 @@
-import "./falsh-deals-style.css"
-import {faBolt, faCaretRight} from "@fortawesome/free-solid-svg-icons";
+import "./big-discounts-section-style.css"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faGift, faCaretRight} from "@fortawesome/free-solid-svg-icons";
 import OwlCarousel from "react-owl-carousel";
-import ProductCard from "../../cards/product-card/ProductCard";
+import ProductCard2 from "../../cards/product-card-2/ProductCard2";
 
-const FlashDeals = () => {
-
+const BigDiscounts = () => {
     return (
-        <div className="flash-deals">
+        <div className="big-discount-section">
             <div className="container pt-5 pb-5">
                 <div className="header mb-4">
                     <div className="section-title">
-                        <FontAwesomeIcon className="section-icon" icon={faBolt}/>
-                        <span className="title">Flash Deals</span>
+                        <FontAwesomeIcon className="section-icon" icon={faGift}/>
+                        <span className="title">Big Discounts</span>
                     </div>
                     <a href="/" className="view-all">
                         <span className="view-text">View all</span>
@@ -28,48 +27,55 @@ const FlashDeals = () => {
                     responsive={
                         {
                             0:{
-                                items:1
-                            },
-                            500:{
-                                items:1
-                            },
-                            700:{
                                 items:2
                             },
-                            1000:{
+                            500:{
                                 items:3
                             },
-                            1200:{
+                            700:{
                                 items:4
+                            },
+                            1000:{
+                                items:5
+                            },
+                            1200:{
+                                items:6
                             }
                         }
                     }
                 >
                     <div className="item">
-                        <ProductCard />
+                        <ProductCard2 />
                     </div>
                     <div className="item">
-                        <ProductCard />
+                        <ProductCard2 />
                     </div>
                     <div className="item">
-                        <ProductCard />
+                        <ProductCard2 />
                     </div>
                     <div className="item">
-                        <ProductCard />
+                        <ProductCard2 />
                     </div>
                     <div className="item">
-                        <ProductCard />
+                        <ProductCard2 />
                     </div>
                     <div className="item">
-                        <ProductCard />
+                        <ProductCard2 />
                     </div>
                     <div className="item">
-                        <ProductCard />
+                        <ProductCard2 />
                     </div>
+                    <div className="item">
+                        <ProductCard2 />
+                    </div>
+                    <div className="item">
+                        <ProductCard2 />
+                    </div>
+
                 </OwlCarousel>
             </div>
         </div>
     );
 };
 
-export default FlashDeals;
+export default BigDiscounts;

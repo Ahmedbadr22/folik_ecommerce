@@ -4,6 +4,7 @@ import Carousel from "../components/carousel/Carousel";
 import FlashDeals from "../components/section/flash-deals/FlashDeals";
 import Footer from "../components/footer/Footer";
 import Categories from "../components/section/categories/Categories";
+import BigDiscounts from "../components/section/big-discounts/BigDiscounts";
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Carousel />
             <Categories />
             <FlashDeals />
+            <BigDiscounts />
             <Footer />
         </>
     );
